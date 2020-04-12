@@ -1,0 +1,60 @@
+
+.movieRow {
+  display: flex;
+  flex-direction: row;
+
+  width: 100%;
+  margin-top: 16px;
+
+  text-align: left;
+
+  background: white;
+  outline: none;
+  box-shadow: none;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+
+  &:hover {
+    background: #ebebeb;
+  }
+
+  &:focus {
+    border: 1px solid #222222;
+  }
+}
+
+.movieRow_selected {
+  background: #bebebe;
+  
+  &:hover {
+    background: #ebebeb;
+  }
+}
+
+.movieThumbnail {
+  width: 80px;
+  height: 80px;
+  padding: 8px;
+
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: 100%;
+
+    border-radius: 8px;
+  }
+}
+
+.movieContent {
+  flex: 1;
+  padding: 8px;
+}
+
+.movieTitle {
+  font-size: 18px;
+}
+
+.movieDescription {
+  color: #bebebe;
+}

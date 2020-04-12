@@ -1,0 +1,21 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+
+  @media (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.content {
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  padding-bottom: 51px;
+
+  @media (min-width: 768px) {
+    flex: 1; 
+  }
+}

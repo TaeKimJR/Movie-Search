@@ -1,0 +1,42 @@
+.container {
+  padding-top: 24px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.heading {
+  font-size: 32px;
+
+  margin-bottom: 24px;
+}
+
+.moviesContainer {
+
+}
+
+.footer {
+  margin-top: 24px;
+}
+
+.purchaseButton {
+  padding: 12px 16px;
+  
+  border: 1px solid #222222;
+  border-radius: 8px;
+
+  background: white;
+  font-size: 16px;
+  color: #222222;
+  text-decoration: none;
+
+  transition: transform .3s;
+
+  &:hover {
+    background: #ebebeb;
+    text-decoration: none;
+  }
+
+  &:active {
+    transform: scale(.95);
+  }
+}
